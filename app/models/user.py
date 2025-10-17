@@ -13,7 +13,7 @@ class User(Base):
     is_email_verified: Mapped[int] = mapped_column(default=0)
     is_phone_verified: Mapped[int] = mapped_column(default=0)
     password_hash: Mapped[str | None] = mapped_column(String(255))
-    metadata: Mapped[dict | None] = mapped_column(JSON)
+    user_metadata: Mapped[dict | None] = mapped_column(JSON)
     created_at: Mapped[str | None] = mapped_column(TIMESTAMP)
     updated_at: Mapped[str | None] = mapped_column(TIMESTAMP)
     deleted_at: Mapped[str | None] = mapped_column(TIMESTAMP)
