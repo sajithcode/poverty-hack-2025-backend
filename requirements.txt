@@ -8,7 +8,7 @@ aiomysql>=0.2.0
 alembic
 
 passlib[bcrypt]
-pyjwt
+python-jose[cryptography]
 email-validator
 python-slugify
 pymysql        # optional: sync scripts
