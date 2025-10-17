@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+python-multipart
+
+SQLAlchemy>=2.0
+aiomysql>=0.2.0
+alembic
+
+passlib[bcrypt]
+pyjwt
+email-validator
+python-slugify
+pymysql        # optional: sync scripts
+
+# Dev tools
+pytest
+pytest-asyncio
+ruff
+black
